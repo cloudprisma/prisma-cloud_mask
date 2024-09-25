@@ -7,6 +7,8 @@ and [classify](#config_getclassicationjson) new images.
 The way how to call them is detailed in the documentation of each main 
 script. Here, an explanation of the content is given:
 
+# Note:
+**Be careful, the paths in the configuration files must be changed according to your path files sctructure**
 
 ## config_getmodel.json
 
