@@ -52,11 +52,11 @@ file is described below:
 
 ```
 {
-    "img_folder": "../img/HDF/val/",
-    "val_polygons_folder": "../results/",
+    "img_folder": "../hdf/",
+    "val_polygons_folder": "../gpk/",
     "trained_models_folder": "../trained_models/",
     "output_mask_folder": "../results/mask/knn/",
-    "output_log": "../results/log_files/4_optunaconfiguration/knn/metrics/",
+    "output_log": "../results/log_files/metrics/",
     "model": "knn",
     "stack_tif": true,
     "cloud_prisma": true,
@@ -121,9 +121,9 @@ this file is described below:
 
 ```
 {
-    "img_folder": "../img/HDF/clas/",
+    "img_folder": "../hdf/",
     "trained_models_folder": "../trained_models/",
-    "output_mask_folder": "../results/class_msk/knn/",
+    "output_mask_folder": "../results/",
     "model": "knn",
     "stack_tif": true,
     "cloud_prisma": true,
