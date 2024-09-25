@@ -6,7 +6,7 @@
 
 This directory contains examples of configuration files in json format 
 used for [train](#config_getmodeljson) the model, [validate](#config_getvaljson) 
-and [classify](#config_getclassicationjson) new images. 
+and [classify](#config_getclassificationjson) new images. 
 
 The way how to call them is detailed in the documentation of each main 
 script. Here, an explanation of the content is given.
