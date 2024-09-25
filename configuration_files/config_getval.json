@@ -1,0 +1,16 @@
+{
+    "img_folder": "../img/HDF/val/",
+    "val_polygons_folder": "../results/",
+    "trained_models_folder": "../trained_models/",
+    "output_mask_folder": "../results/mask/knn/",
+    "output_log": "../results/log_files/4_optunaconfiguration/knn/metrics/",
+    "model": "knn",
+    "stack_tif": true,
+    "cloud_prisma": true,
+    "npy_matrix": false,
+    "prisma_test": false,
+    "bands": {
+               "VNIR": [480, 559, 650, 660, 742, 762, 840, 942],
+               "SWIR": [1114, 1131, 1250, 1386, 1548, 1558, 1651, 1749, 1759, 2072, 2082, 2193, 2203]
+              }
+}
