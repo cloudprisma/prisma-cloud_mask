@@ -53,7 +53,7 @@ file is described below:
 ```
 {
     "img_folder": "../hdf/",
-    "val_polygons_folder": "../gpk/",
+    "val_polygons_folder": "../gpkg/",
     "trained_models_folder": "../trained_models/",
     "output_mask_folder": "../results/mask/knn/",
     "output_log": "../results/log_files/metrics/",
