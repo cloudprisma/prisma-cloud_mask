@@ -1,5 +1,5 @@
 # Note:
-# **Be careful, the paths in the configuration files must be changed according to your path files sctructure**
+# **Be careful, the paths in the configuration files must be changed according to your path files structure**
 
 
 # Sample config files
