@@ -19,7 +19,7 @@ In this project you will find:
 
 * scripts contains a modular code:
 ![_Diagrama de flujo - prisma_program](https://github.com/user-attachments/assets/28528974-bada-4f87-ab44-9685b03012a5)
-- trained_models: contains the best model based on optuna optimization 
+- trained_models: contains the best model based on optuna optimization. 
 Additionaly you will find two directories. First one called [configuration_files](https://github.com/cloudprisma/prisma-cloud_mask/tree/main/configuration_files), which provides examples to set the different input files to run the main classification scripts.
 Second one, called [sample_validation-data](https://github.com/cloudprisma/prisma-cloud_mask/tree/main/sample_validation-data) provides the access to sample prisma dataset and its vector masks.
 
