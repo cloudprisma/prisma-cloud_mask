@@ -12,7 +12,9 @@ This repository contains the Python sources of the Prisma basic processing for c
 
 ![process_cloud](https://github.com/user-attachments/assets/4947ba2b-00e0-4374-88af-9d3f57961fbb)
 
-
+# Note:
+Due to the weight of the PRISMA images, routines for extracting the database were excluded. However, the database is available at the link [Database](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/data/database.md).
+  
 # Prisma program Structure:
 In this project you will find:
 
@@ -91,8 +93,4 @@ Below, some sample results for Validation and Classification are shown by using 
 This repository contains the Python sources of the Prisma basic processing and some parts were adapted from the original code developed by:
  - [x] see the [ACOLITE: generic atmospheric correction module - for PRISMA](https://github.com/acolite/acolite) 
 
-All credit goes to the original author.
-
-In case you use the results of this code with your article, please don't forget to cite:
-
-- [x] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+All credit goes to the corresponding author.
