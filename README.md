@@ -9,7 +9,8 @@
 This repository contains the Python sources of the Prisma basic processing for cloud classification. Some parts for the preprocessing were adapted from the original code developed by [[1]](Vanhellemonthttps://www.sciencedirect.com/science/article/pii/S0034425718303481) - see the [ACOLITE: generic atmospheric correction module - for PRISMA](https://github.com/acolite/acolite) 
 
 # How it works?
-![h](https://github.com/user-attachments/assets/14f79fdf-a74a-4189-8233-48a2c36010d8)
+
+![process_cloud](https://github.com/user-attachments/assets/4947ba2b-00e0-4374-88af-9d3f57961fbb)
 
 
 # Prisma program Structure:
