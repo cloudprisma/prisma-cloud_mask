@@ -49,7 +49,7 @@ Second one, called [sample_validation-data](https://github.com/cloudprisma/prism
 
   4. Download the scripts available here and save them into the same directory or try via git clone source:
   ```
-      $ !git clone https://github.com/cloudprisma/prisma-cloud_mask
+      $ git clone https://github.com/cloudprisma/prisma-cloud_mask
   ```
   # Note:
   Given its weight, some files are attached as google drive link. Do not forget to download them:
