@@ -13,7 +13,7 @@ This repository contains the Python sources of the Prisma basic processing for c
 ![process_cloud](https://github.com/user-attachments/assets/4947ba2b-00e0-4374-88af-9d3f57961fbb)
 
 # Note:
-Due to the weight of the PRISMA images, routines for extracting the database were excluded. However, the database is available at the link [Database](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/data/database.md).
+Due to the weight of the PRISMA images, routines for extracting the database were excluded. However, the database is available at the link: [Database](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/data/database.md).
   
 # Prisma program Structure:
 In this project you will find:
