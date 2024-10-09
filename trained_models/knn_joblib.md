@@ -1,2 +1,2 @@
 KNN joblib - 
-see and download -> [knn.jolib](https://drive.google.com/drive/folders/1CrOXUwCso_UYfj3bwnkA6VJE6w79foG3?usp=sharing) 
+see and download -> [knn.jolib](https://drive.google.com/file/d/1F1mSY7qmn3Pj76KnWTAX0qB3Do0vp64f/view?usp=drive_link) 
