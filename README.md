@@ -34,10 +34,16 @@ Second one, called [sample_validation-data](https://github.com/cloudprisma/prism
     $ pip install virtualenv
     $ python -m venv <virtual-environment-name>
   ```
-  
+or if necessary:
+   
+   ```
+    $ pip3 install virtualenv
+    $ python3 -m venv <virtual-environment-name>
+  ```
+
   2. Activate your virtual environment:
   ```
-      $ source env/bin/activate
+      $ source <virtual-environment-name>/bin/activate
   ```
   3.  Install the requirements in the Virtual Environment, you can easily just pip install the libraries. For example:
   ```
@@ -66,7 +72,7 @@ Alternative you can download the zip. Please make sure to rename the directory a
 ## To get the Cloud Mask:
   Configure the [config_getclassification.json](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/configuration_files/config_getclassification.json) file according to the instructions given in this [link](https://github.com/cloudprisma/prisma_cloud_mask/tree/main/configuration_files#config_getclassificationjson).
   
-  Locate at the main directory. Once there, execute the next command in a terminal, for example, to run
+  Locate at the directory called: ``main`` inside of ``prisma_cloud_mask`` folder. Once there, execute the next command in a terminal, for example, to run
   the classification script ([get_classification.py](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/main/get_classification.py)), you can run the following line:
   ```
       $ python get_classification.py -i <Path to the config_getclassification.json file>
