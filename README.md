@@ -61,18 +61,20 @@ Example based on linux systems:
   - [trained_models/knn.joblib](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/trained_models/knn_joblib.md)
 
 # Run the scripts
-  Configure the config_getclassification.json file according to the instructions given in this [link](https://github.com/cloudprisma/prisma-cloud_mask/tree/main/configuration_files#config_getclassificationjson)
+## To get the Cloud Mask:
+  Configure the [config_getclassification.json](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/configuration_files/config_getclassification.json) file according to the instructions given in this [link](https://github.com/cloudprisma/prisma-cloud_mask/tree/main/configuration_files#config_getclassificationjson).
+  
   Locate at the main directory. Once there, execute the next command in a terminal, for example, to run
   the classification script ([get_classification.py](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/main/get_classification.py)), you can run the following line:
   ```
       $ python get_classification.py -i <Path to the config_getclassification.json file>
   ```
+## help
   Additionally, you can access to the help of each script for generate a model ([get_model.py](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/main/get_model.py)), validation ([get_validation.py](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/main/get_validation.py)) or classification ([get_classification.py](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/main/get_classification.py)) using the `-h` tag:
  
  ```
       $ python get_model.py -h
  ```
- 
 
 # Sample Results
 Below, some sample results for Validation and Classification are shown by using the provided [models](https://github.com/cloudprisma/prisma-cloud_mask/tree/main/trained_models) which were trained with the following 21 spectral bands: 
