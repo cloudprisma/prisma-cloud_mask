@@ -61,6 +61,7 @@ Example based on linux systems:
   - [trained_models/knn.joblib](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/trained_models/knn_joblib.md)
 
 # Run the scripts
+  Configure the config_getclassification.json file according to the instructions given in this [link](https://github.com/cloudprisma/prisma-cloud_mask/tree/main/configuration_files#config_getclassificationjson)
   Locate at the main directory. Once there, execute the next command in a terminal, for example, to run
   the classification script ([get_classification.py](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/main/get_classification.py)), you can run the following line:
   ```
