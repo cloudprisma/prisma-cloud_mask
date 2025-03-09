@@ -27,6 +27,7 @@ Additionaly you will find two directories. First one called [configuration_files
 Second one, called [sample_validation-data](https://github.com/cloudprisma/prisma-cloud_mask/tree/main/sample_validation-data) provides the access to sample prisma dataset and its vector masks.
 
 # Prepare environment
+Example based on linux systems:
 
   1. Create an environment, for instance:
   ```
