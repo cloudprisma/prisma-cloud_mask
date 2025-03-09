@@ -124,14 +124,10 @@ this file is described below:
     "img_folder": "../hdf/",
     "trained_models_folder": "../trained_models/",
     "output_mask_folder": "../results/",
-    "model": "knn",
+    "model": "xgboost",
     "stack_tif": true,
     "cloud_prisma": true,
     "npy_matrix": false,
-    "bands": {
-               "VNIR": [480, 559, 650, 660, 742, 762, 840, 942],
-               "SWIR": [1114, 1131, 1250, 1386, 1548, 1558, 1651, 1749, 1759, 2072, 2082, 2193, 2203]
-              }
 }
 
 ```
@@ -144,13 +140,8 @@ this file is described below:
 
 **output_mask_folder**: path to the output directory
 
-**model**: model to be used, options are: knn, rf (Random Forest) and xgboost
+**model**: model to be used, options are: knn, rf (Random Forest) or xgboost
 
-**bands**:  dictionary with list of the bands for each spectral region to
-            be used for the classification. They must be compliant with the \
-            &emsp;&emsp;&emsp;&nbsp; bands used to train the model. If 
-            the model has been trained with all available bands, this 
-            parameter can be optional.
 
 ### optional parameters:
 
@@ -162,10 +153,4 @@ this file is described below:
 
 **npy_matrix**: boolean parameter. If true, a numpy array is also generated 
                 in the output folder
-
-**bands**: dictionary with list of the bands for each spectral region to
-           be used for the classification. They must be compliant with the \
-           &emsp;&emsp;&emsp;&nbsp; bands used to train the model. If the 
-           model has been trained with a subset of bands, this parameter 
-           becomes mandatory.
 
