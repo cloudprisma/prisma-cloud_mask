@@ -7,7 +7,7 @@ import numpy as np
 import sys
 from time import time
 sys.path.append('../../')
-import prisma_program as prisma
+import prisma_cloud_mask as prisma
 import joblib
 
 import json
