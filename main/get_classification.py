@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import sys
 sys.path.append('../../')
-import prisma_program as prisma
+import prisma_cloud_mask as prisma
 from glob import glob
 from pathlib import Path
 import os
