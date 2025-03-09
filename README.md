@@ -13,7 +13,7 @@ This repository contains the Python sources of the Prisma basic processing for c
 ![process_cloud](https://github.com/user-attachments/assets/4947ba2b-00e0-4374-88af-9d3f57961fbb)
 
 # Note:
-Due to the weight of the PRISMA images, routines for extracting the database were excluded. However, the database is available in the following link: [Database](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/data/database.md).
+Due to the weight of the PRISMA images, routines for extracting the database were excluded. However, the database is available in the following link: [Database](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/data/database.md).
   
 # Prisma program Structure:
 In this project you will find:
@@ -23,8 +23,8 @@ In this project you will find:
 * scripts contains a modular code:
 ![_Diagrama de flujo - prisma_program](https://github.com/user-attachments/assets/28528974-bada-4f87-ab44-9685b03012a5)
 - trained_models: contains the best model based on optuna optimization. 
-Additionaly you will find two directories. First one called [configuration_files](https://github.com/cloudprisma/prisma-cloud_mask/tree/main/configuration_files), which provides examples to set the different input files to run the main classification scripts.
-Second one, called [sample_validation-data](https://github.com/cloudprisma/prisma-cloud_mask/tree/main/sample_validation-data) provides the access to sample prisma dataset and its vector masks.
+Additionaly you will find two directories. First one called [configuration_files](https://github.com/cloudprisma/prisma_cloud_mask/tree/main/configuration_files), which provides examples to set the different input files to run the main classification scripts.
+Second one, called [sample_validation-data](https://github.com/cloudprisma/prisma_cloud_mask/tree/main/sample_validation-data) provides the access to sample prisma dataset and its vector masks.
 
 # Prepare environment
 Example based on linux systems:
@@ -50,34 +50,34 @@ Example based on linux systems:
 
   4. Download the scripts available here and save them into the same directory or try via git clone source:
   ```
-      $ git clone https://github.com/cloudprisma/prisma-cloud_mask
+      $ git clone https://github.com/cloudprisma/prisma_cloud_mask
   ```
   # Note:
   Given its weight, some files are attached as google drive link. Do not forget to download them:
 
-  - [Database](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/data/database.md)
-  - [sample_validation_data/gpkg/](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/sample_validation-data/gpkg/gpkg_files.md) folder
-  - [sample_validation_data/hdf/](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/sample_validation-data/hdf/prisma_hdf_files.md) folder
-  - [trained_models/knn.joblib](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/trained_models/knn_joblib.md)
+  - [Database](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/data/database.md)
+  - [sample_validation_data/gpkg/](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/sample_validation-data/gpkg/gpkg_files.md) folder
+  - [sample_validation_data/hdf/](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/sample_validation-data/hdf/prisma_hdf_files.md) folder
+  - [trained_models/knn.joblib](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/trained_models/knn_joblib.md)
 
 # Run the scripts
 ## To get the Cloud Mask:
-  Configure the [config_getclassification.json](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/configuration_files/config_getclassification.json) file according to the instructions given in this [link](https://github.com/cloudprisma/prisma-cloud_mask/tree/main/configuration_files#config_getclassificationjson).
+  Configure the [config_getclassification.json](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/configuration_files/config_getclassification.json) file according to the instructions given in this [link](https://github.com/cloudprisma/prisma_cloud_mask/tree/main/configuration_files#config_getclassificationjson).
   
   Locate at the main directory. Once there, execute the next command in a terminal, for example, to run
-  the classification script ([get_classification.py](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/main/get_classification.py)), you can run the following line:
+  the classification script ([get_classification.py](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/main/get_classification.py)), you can run the following line:
   ```
       $ python get_classification.py -i <Path to the config_getclassification.json file>
   ```
 ## help
-  Additionally, you can access to the help of each script for generate a model ([get_model.py](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/main/get_model.py)), validation ([get_validation.py](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/main/get_validation.py)) or classification ([get_classification.py](https://github.com/cloudprisma/prisma-cloud_mask/blob/main/main/get_classification.py)) using the `-h` tag:
+  Additionally, you can access to the help of each script for generate a model ([get_model.py](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/main/get_model.py)), validation ([get_validation.py](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/main/get_validation.py)) or classification ([get_classification.py](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/main/get_classification.py)) using the `-h` tag:
  
  ```
       $ python get_model.py -h
  ```
 
 # Sample Results
-Below, some sample results for Validation and Classification are shown by using the provided [models](https://github.com/cloudprisma/prisma-cloud_mask/tree/main/trained_models) which were trained with the following 21 spectral bands: 
+Below, some sample results for Validation and Classification are shown by using the provided [models](https://github.com/cloudprisma/prisma_cloud_mask/tree/main/trained_models) which were trained with the following 21 spectral bands: 
 
 ```
 "bands": {
