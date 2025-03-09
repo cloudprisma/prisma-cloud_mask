@@ -20,7 +20,7 @@ file is described below:
 
 ```
 {
-    "model": "knn", 
+    "model": "xgboost", 
     "db_folder": "../data/database/",
     "csv_fn": "prisma_database_21_bands.csv",
     "output_model_folder": "../trained_models/",
