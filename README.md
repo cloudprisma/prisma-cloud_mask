@@ -52,6 +52,8 @@ Second one, called [sample_validation-data](https://github.com/cloudprisma/prism
   ```
       $ git clone https://github.com/cloudprisma/prisma_cloud_mask
   ```
+Alternative you can download the zip. Please make sure to rename the directory as: ``prisma_cloud_mask`` after unzip the files.
+
   # Note:
   Given its weight, some files are attached as google drive link. Do not forget to download them:
 
