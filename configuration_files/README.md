@@ -95,10 +95,10 @@ file is described below:
 
 ### optional parameters:
 
-**stack_tif**: boolean parameter. If true, original bands are going to be
+**stack_tif**: boolean parameter. If true, the original bands are going to be
                stacked to the output mask.
 
-**cloud_prisma**: boolean parameter. If true, original prisma cloud mask 
+**cloud_prisma**: boolean parameter. If true, the original prisma cloud mask 
                   is going to be stacked to the output mask.
 
 **npy_matrix**: boolean parameter. If true, a numpy array is also generated 
