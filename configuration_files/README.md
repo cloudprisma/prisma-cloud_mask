@@ -116,7 +116,7 @@ file is described below:
 ## config_getclassification.json
 
 This is an example for the configuration file used to classify a new image. 
-It is called by the `get_classification.py` main script. The structure for \
+It is called by the `get_classification.py` main script. The structure for 
 this file is described below:
 
 ```
