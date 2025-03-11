@@ -24,7 +24,7 @@
 ----------
 Implementazione di algoritmi numerico-statistici per la caratterizzazione e rimozione del rumore e per la cloud detection in immagini iperspettrali.  
 
-<center><img src="../media/prisma_2.png" alt="prisma" style="width:600px;"/></center>
+<center><img src="./media/prisma_2.png" alt="prisma" style="width:600px;"/></center>
 
 March 13, 2025
 
@@ -91,7 +91,7 @@ $  git clone https://github.com/cloudprisma/prisma_cloud_mask
 ```
 [comment]: # (||| data-background-color="FloralWhite")
 
-<center><img src="../media/git.png" alt="imgsample2" style="width:600px;"/></center>
+<center><img src="./media/git.png" alt="imgsample2" style="width:600px;"/></center>
 <div style="font-size: 1em;">
 Alternative you can download the <a href="https://github.com/cloudprisma/prisma_cloud_mask/archive/refs/heads/main.zip">zip</a>. Please make sure to rename the directory as: <strong>prisma_cloud_mask</strong> after unzip the files.
 </div>
@@ -192,6 +192,6 @@ $ python get_classification.py -i <Path to the config_getclassification.json fil
 
 - Result based on:
 <strong>PRS_L1_STD_OFFL_20240522095507_20240522095511_0001 - Xgboost </strong>
-<center><img src="../media/imgsample.png" alt="imgsample" style="width:600px;"/></center>
+<center><img src="./media/imgsample.png" alt="imgsample" style="width:600px;"/></center>
 
 [comment]: # (!!! data-background-color="Black")
