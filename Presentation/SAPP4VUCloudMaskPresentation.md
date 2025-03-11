@@ -31,7 +31,7 @@ March 13, 2025
 [comment]: # (!!!) 
 
 
-### Prisma cloud mask - [GIT](https://github.com/cloudprisma/prisma_cloud_mask/edit/main)
+### Prisma cloud mask - [GIT](https://github.com/cloudprisma/prisma_cloud_mask/tree/main)
 ----------
 ### Description:
 <div style="font-size: 1em;">
